@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/Hotels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Гостиницы"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="true"
+        android:textAlignment="center"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        >
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:id="@+id/HolidayInn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Holiday Inn"
+                android:textSize="@dimen/string_size"
+                android:textColor="@color/black"
+                />
+
+            <Button
+                android:id="@+id/addHolidayInn"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Выбрать"
+                android:onClick="selectHolidayInn"
+                android:textSize="12dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/BetaIzmailovo"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Бета Измайлово"
+                android:textColor="@color/black"
+                android:textSize="@dimen/string_size" />
+
+            <Button
+                android:id="@+id/addBetaIzmailovo"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Выбрать"
+                android:onClick="selectBetaIzmailovo"
+                android:textSize="12dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/GammaIzmailovo"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Гамма Измайлово"
+                android:textColor="@color/black"
+                android:textSize="@dimen/string_size" />
+
+            <Button
+                android:id="@+id/addGammaIzmailovo"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Выбрать"
+                android:onClick="selectGammaIzmailovo"
+                android:textSize="12dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/CosmosMoscow"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cosmos Moscow"
+                android:textColor="@color/black"
+                android:textSize="@dimen/string_size" />
+
+            <Button
+                android:id="@+id/addCosmosMoscow"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Выбрать"
+                android:onClick="selectCosmosMoscow"
+                android:textSize="12dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/MarriotMoscow"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Марриот Москва"
+                android:textColor="@color/black"
+                android:textSize="@dimen/string_size" />
+
+            <Button
+                android:id="@+id/addMarriotMoscow"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Выбрать"
+                android:onClick="selectMarriotMoscow"
+                android:textSize="12dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/Novotel"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Novotel"
+                android:textColor="@color/black"
+                android:textSize="@dimen/string_size" />
+
+            <Button
+                android:id="@+id/addNovotel"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Выбрать"
+                android:onClick="selectNovotel"
+                android:textSize="12dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/Nacional"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Националь 5*"
+                android:textColor="@color/black"
+                android:textSize="@dimen/string_size" />
+
+            <Button
+                android:id="@+id/addNacional"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Выбрать"
+                android:onClick="selectNacional"
+                android:textSize="12dp"
+                />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
